@@ -3,9 +3,43 @@ nav .log_reg a {
 }
 
 .topper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width:auto;
+    height: 46px;
+
+    /* background: #3E084C; */
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
     height: 46px;
     background-color: #3E084C;
     color: #fff;
+}
+
+.topper .topper_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 240px;
+
+    width: 1440px;
+    height: 46px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 ul.right_side li{
@@ -24,4 +58,228 @@ ul.mid_side li button{
     border-radius: 8px;
     width: 83px;
     height: 30px;
+}
+
+.logo_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 240px;
+
+    width: 1440px;
+    height: 85px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;   
+}
+
+.logo_container{
+    margin-left: -6.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 1280px;
+    height: 84px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo_container .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1280px;
+    height: 84px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 1px;
+    gap: 8px;
+    
+    width: 231px;
+    height: 72px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo_mark{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 50px;
+    height: 50px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo_text_con{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    isolation: isolate;
+
+    width: 171px;
+    height: 72px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.logo_text{
+    margin-top: -0.4rem;
+    width: 171px;
+    height: 72px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 72px;
+    /* identical to box height, or 225% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #3E084C;
+}
+
+.logo_text_con .trade_mark{
+    position: absolute;
+    left:-61%;
+    right: -12.93%;
+    top: 29.76%;
+    bottom: 38.1%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #3E084C;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.input_dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    
+    width: 640px;
+    height: 44px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.input_label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    width: 640px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.input_box{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+
+    width: 640px;
+    height: 44px;
+
+    background: #FFFFFF;
+    /* Gray/300 */
+
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #D0D5DD;
+    /* Shadow/xs */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 2px 0px 0px 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
